@@ -1,4 +1,4 @@
-package com.ibm.demo.labs.lab1.Ex1;
+package com.ibm.demo.labs.lab1.Ex5;
 
 public class CalSum {
 

@@ -7,7 +7,15 @@ abstract class Rbi{
 	abstract void doKyc();
 }
 
-class HdfcBank extends Rbi{
+interface FinanceMinister{
+	
+}
+
+interface StateGovt{
+	
+}
+
+class HdfcBank extends Rbi implements FinanceMinister,StateGovt{
 
 	@Override
 	void doKyc() {
